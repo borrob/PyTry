@@ -1,1 +1,6 @@
-dd some readme
+python script takes 1 argument (gemeente naam) to build a wfs filter. Osgeo ogr module to convert the wfs gml response to geopackage format. Based on:
+
+http://sogeo.ch/blog/2014/06/08/vom-webdienst-zum-bulkdownload/
+
+pdok wfs:
+http://geodata.nationaalgeoregister.nl/bestuurlijkegrenzen/wfs?SERVICE=WFS&VERSION=1.0.0&REQUEST=GetFeature&TYPENAME=bestuurlijkegrenzen:gemeenten&SRSNAME=EPSG:28992&BBOX=0,300000,300000,600000
